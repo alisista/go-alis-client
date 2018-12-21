@@ -19,7 +19,7 @@ type ArticleInfo struct {
 	ArticleID string `json:"article_id,omitempty"`
 
 	// created at
-	CreatedAt int64 `json:"created_at,omitempty"`
+	CreatedAt float64 `json:"created_at,omitempty"`
 
 	// eye catch url
 	EyeCatchURL string `json:"eye_catch_url,omitempty"`
