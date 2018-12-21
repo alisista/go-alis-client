@@ -19,7 +19,7 @@ type Notification struct {
 	ActedUserID string `json:"acted_user_id,omitempty"`
 
 	// created at
-	CreatedAt int64 `json:"created_at,omitempty"`
+	CreatedAt float64 `json:"created_at,omitempty"`
 
 	// sort key
 	SortKey int64 `json:"sort_key,omitempty"`
